@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        body{
+            background-color:green;
+        }
+        .total{
+            height: 485px;
+            width: 350px;
+            border: 3px solid;
+        }
+        .body{
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .cd{
+            height: 70px;
+            width: 70px;
+            background-color: gray;
+            border-radius: 20px;
+            margin-top: 5px;
+            margin-left: 6px;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .text1{
+            background-color: goldenrod;
+            border-radius: 0px;
+            text-align: right;
+            width: 350px;
+            height: 10vh;
+            font-size: 50px;
+            border: #fff;
+            flex-shrink: 0;
+            flex-wrap: wrap;
+        }
+        .cd:hover{
+            background-color: black;
+            color: white;
+            transition-duration: 0.3s;
+        }
+        .h1{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="total">
+        <div class="up">
+           <input type="text" class="text1" placeholder="0"> 
+        </div>
+    <div class="body">
+        <div class="cd">AC</div>
+        <div class="cd">DEL</div>
+        <div class="cd">%</div>
+        <div class="cd">/</div>
+
+    </div>
+    <div class="body">
+        <div class="cd">1</div>
+        <div class="cd">2</div>
+        <div class="cd">3</div>
+        <div class="cd">x</div>
+
+    </div>
+    <div class="body">
+        <div class="cd">4</div>
+        <div class="cd">5</div>
+        <div class="cd">6</div>
+        <div class="cd">-</div>
+
+    </div>
+    <div class="body">
+        <div class="cd">7</div>
+        <div class="cd">8</div>
+        <div class="cd">9</div>
+        <div class="cd">+</div>
+
+    </div>
+    <div class="body">
+        <div class="cd">1</div>
+        <div class="cd">0</div>
+        <div class="cd">.</div>
+        <div class="cd">=</div>
+
+    </div>
+    </div>
+
+</body>
+</html>
